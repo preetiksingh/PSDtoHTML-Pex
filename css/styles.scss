@@ -1,0 +1,37 @@
+body {
+	font-family: 'Lato', sans-serif;	
+
+}
+
+#land{
+	
+	width: 100%;
+	height: 100vh;
+	color: #FFF;
+	background-image: url('../img/sky.jpg');
+	background-size: cover;
+	text-align: right;
+
+	.vcenter{
+		position: relative;
+		top: 50%;
+		transform:translateY(-50%);
+		border:1px solid transparent;
+		}
+
+	.vcenter a {
+	  &, &:hover {
+		background-color: red;
+		color:#FFF;
+		text-decoration: none;
+	}
+  }
+
+	
+}
+
+
+
+
+
+
